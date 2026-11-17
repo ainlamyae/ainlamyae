@@ -1,0 +1,57 @@
+/* LinkedIn banner styles. Colours come from config.js (CSS variables set in banner.js). */
+* { box-sizing: border-box; margin: 0 }
+html, body { width: 1584px; height: 396px; overflow: hidden }
+body {
+  background: var(--background);
+  font-family: "Geist", "Inter", "Segoe UI", Arial, sans-serif;
+  position: relative;
+  color: #fff;
+}
+.bg {
+  position: absolute; inset: 0;
+  background:
+    radial-gradient(760px 240px at 50% 42%, var(--glow) 0%, transparent 70%),
+    linear-gradient(180deg, var(--background-top) 0%, var(--background-bottom) 100%);
+}
+#icons {
+  position: absolute; left: 0; top: 0;
+  opacity: var(--icon-opacity);
+  /* icons fade a little behind the headline */
+  -webkit-mask-image: radial-gradient(ellipse 560px 150px at 58% 40%, rgba(0,0,0,.40), #000 100%);
+  mask-image: radial-gradient(ellipse 560px 150px at 58% 40%, rgba(0,0,0,.40), #000 100%);
+}
+.wrap { position: absolute; top: 0; height: 396px }
+#v { position: absolute; left: 0; top: 0 }
+
+h1 {
+  position: absolute; top: 80px; left: 0; width: 100%; text-align: center;
+  font: 700 44px/1.05 "Geist", "Inter", "Segoe UI", Arial, sans-serif;
+  letter-spacing: -.02em; color: var(--headline);
+  text-shadow: 0 3px 10px rgba(6,16,38,.45);
+}
+.sub {
+  position: absolute; top: 136px; left: 0; width: 100%; text-align: center;
+  font: 500 21px/1 "Geist", "Inter", "Segoe UI", Arial, sans-serif;
+  color: var(--subline); text-shadow: 0 2px 6px rgba(6,16,38,.4);
+}
+
+/* Stage arrows: rounded, glossy, slightly transparent, with shadow and a faint reflection */
+.st {
+  position: absolute;
+  -webkit-box-reflect: below -3px linear-gradient(to bottom, transparent 58%, rgba(255,255,255,.20));
+}
+.st svg { position: absolute; inset: 0; filter: drop-shadow(0 6px 7px rgba(6,16,38,.5)) }
+.st span {
+  position: absolute; left: 10px; right: 22px; top: 0; bottom: 0;
+  display: flex; align-items: center; justify-content: center; text-align: center;
+  font: 700 16px/1.1 "Geist", "Inter", "Segoe UI", Arial, sans-serif;
+  color: var(--stage-text); letter-spacing: -.005em;
+  text-shadow: 0 1px 0 rgba(255,255,255,.35);
+}
+
+.kw {
+  position: absolute; left: 0; width: 100%; text-align: center; white-space: nowrap;
+  font: 500 18px/1 "Geist", "Inter", "Segoe UI", Arial, sans-serif;
+  color: var(--keywords); letter-spacing: .01em;
+}
+.kw b { color: var(--keyword-dot); font-weight: 500; margin: 0 9px }

@@ -1,0 +1,14 @@
+{
+  "name": "linkedin-banner",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Source for the LinkedIn banner: edit src/config.js, then export the PNG.",
+  "type": "module",
+  "scripts": {
+    "export": "node scripts/export.mjs",
+    "safe-zone": "node scripts/safe-zone.mjs"
+  },
+  "devDependencies": {
+    "puppeteer-core": "^25.17.0"
+  }
+}
