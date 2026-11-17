@@ -1,4 +1,4 @@
-R&D Engineer with extensive multidisciplinary expertise in systems design and AI software architecture, spanning generative AI, agentic decision-making, autonomous platforms, robotics, and real-time control.
+R&D Engineer with extensive multidisciplinary expertise in Systems Design and AI-Enabled Software Architecture, spanning AI Agents, Autonomous Platforms, Robotics, and Real-Time Control.
 
 **Skills:**
 - **Agentic AI & LLM Engineering:** multi-agent orchestration · tool use via MCP · agent memory (extraction, consolidation, retrieval) · RAG & embeddings · harness integration (OpenAI Codex CLI lifecycle hooks) · LangChain · LangGraph · Ollama
