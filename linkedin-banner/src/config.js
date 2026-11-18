@@ -10,29 +10,32 @@ window.BANNER_CONFIG = {
     headline: 'AI systems you can trust',
     subline: 'From Idea to Operation',
     keywords: [
+      'AI-enabled Software Architecture',
       'Systems Design',
-      'AI Software Architecture',
-      'Generative AI',
-      'Agentic Decision-Making',
+      'AI Agents',
       'Autonomous Platforms',
       'Robotics',
-      'Real-Time Control'
+      'Control'
     ],
     keywordsTop: 302
   },
 
-  /* V model: the stages go down the left arm, the middle one is the bottom,
-   * and the rest climb the right arm. Use an odd number of stages. */
+  /* Software-engineering V model: the design phases go down the left arm, coding is
+   * the bottom, and the test phases climb the right arm. Each test phase checks the
+   * design phase at the same height:
+   *   Requirements Analysis <-> Acceptance Testing, System Design <-> System Testing,
+   *   Architecture Design <-> Integration Testing, Module Design <-> Unit Testing.
+   * Use an odd number of stages. */
   stages: [
-    { name: 'Requirements',   color: '#ff9f8e' },
-    { name: 'Data',           color: '#ffb089' },
-    { name: 'Model',          color: '#ffc38a' },
-    { name: 'Architecture',   color: '#ffd98f' },
-    { name: 'Implementation', color: '#fff0c4' },
-    { name: 'Validation',     color: '#bfe6f2' },
-    { name: 'Deployment',     color: '#9fd3f0' },
-    { name: 'Operation',      color: '#86bef0' },
-    { name: 'Improvement',    color: '#8fa8f0' }
+    { name: 'Requirements Analysis', color: '#ff9f8e' },
+    { name: 'System Design',         color: '#ffb089' },
+    { name: 'Architecture Design',   color: '#ffc38a' },
+    { name: 'Module Design',         color: '#ffd98f' },
+    { name: 'Coding',                color: '#fff0c4' },
+    { name: 'Unit Testing',          color: '#bfe6f2' },
+    { name: 'Integration Testing',   color: '#9fd3f0' },
+    { name: 'System Testing',        color: '#86bef0' },
+    { name: 'Acceptance Testing',    color: '#8fa8f0' }
   ],
 
   shapes: { width: 140, height: 50, tip: 20, radius: 7, top: 76, drop: 40 },

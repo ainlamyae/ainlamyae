@@ -1,6 +1,6 @@
 # LinkedIn banner
 
-Source for my LinkedIn banner. The banner shows the lifecycle of an AI system as a **V model**: requirements and design go down the left arm, implementation is the bottom, and validation, deployment and operation climb the right arm. Dashed lines link matching levels. A faint pattern of line icons fills the background.
+Source for my LinkedIn banner. The banner shows the software-engineering **V model**: requirements analysis, system design, architecture design and module design go down the left arm, coding is the bottom, and unit, integration, system and acceptance testing climb the right arm. Dashed lines link each design phase to the test phase that checks it. A faint pattern of line icons fills the background.
 
 Output size: **1584 × 396 px** (4:1), plus a 2x copy at 3168 × 792 px.
 

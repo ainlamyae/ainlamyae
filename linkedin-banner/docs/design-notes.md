@@ -18,15 +18,24 @@ LinkedIn crops the banner and places the profile photo over it. Approximate valu
 
 ## Concept: the V model
 
-The nine stages are the lifecycle of an AI system. The middle stage is the bottom of the V.
+The nine stages are the classic software-engineering V model. The left arm holds the design phases, coding is the bottom, and the right arm holds the test phases. The middle stage is the bottom of the V.
 
 | Arm | Stages |
 |---|---|
-| Left, going down | Requirements, Data, Model, Architecture |
-| Bottom | Implementation |
-| Right, going up | Validation, Deployment, Operation, Improvement |
+| Left, going down | Requirements Analysis, System Design, Architecture Design, Module Design |
+| Bottom | Coding |
+| Right, going up | Unit Testing, Integration Testing, System Testing, Acceptance Testing |
 
-Dashed lines link matching levels: Requirements and Improvement, Data and Operation, Model and Deployment, Architecture and Validation. The two top lines stop before the headline and subline.
+Dashed lines link each design phase to the test phase that checks it:
+
+| Level | Left (design) | Right (testing) |
+|---|---|---|
+| 1 | Requirements Analysis | Acceptance Testing |
+| 2 | System Design | System Testing |
+| 3 | Architecture Design | Integration Testing |
+| 4 | Module Design | Unit Testing |
+
+The two top lines stop before the headline and subline. Longer stage names wrap onto two lines inside the arrows.
 
 ## Look
 
