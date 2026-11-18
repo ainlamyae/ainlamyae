@@ -1,4 +1,4 @@
-R&D Engineer with multidisciplinary expertise in Systems Design and AI-enabled Software Architecture, spanning AI Agents, Autonomous Platforms, Robotics, and Control.
+R&D Engineer with multidisciplinary expertise in **Systems Design** and **AI-enabled Software Architecture**, spanning AI Agents, Autonomous Platforms, Robotics, and Control.
 
 **Core Engineering Expertise:**
 - Prompt engineering, multi-agent orchestration, tool use via MCP, agent memory (extraction, consolidation, retrieval), RAG & embeddings, harness integration, runtime guardrails
@@ -9,7 +9,7 @@ R&D Engineer with multidisciplinary expertise in Systems Design and AI-enabled S
 - Embedded software, communication systems, sensor & actuator integration, calibration, prototyping, optimization
 
 **Systems/Applications Experience:**
-- **Generative AI:** software factory, code generation (Python, 5G scripts & test cases), text generation, NL interpretation, information retrieval
+- **Generative AI:** software factory, code generation (5G scripts & test cases), text generation, NL interpretation, information retrieval, automated customer interactions
 - **Intelligent Systems:** autonomous driving (Apollo Auto, end-to-end InterFuser)
 - **Robotics:** industrial, serial & parallel (cable, Stewart), humanoid, biped, UGV, UAV (quadcopter), exoskeleton (upper & lower limb)
 - **Biological Systems:** musculoskeletal modeling, EMG signal analysis
