@@ -1,9 +1,9 @@
 R&D Engineer with multidisciplinary expertise in Systems Design and AI-enabled Software Architecture, spanning AI Agents, Autonomous Platforms, Robotics, and Control.
 
 **Core Engineering Expertise:**
-- Prompt engineering, multi-agent orchestration, tool use via MCP, agent memory (extraction, consolidation, retrieval), RAG & embeddings, harness integration
-- Benchmark & ablation design, LLM-as-a-Judge, human-in-the-loop validation, uncertainty quantification, confidence estimation, runtime guardrails
+- Prompt engineering, multi-agent orchestration, tool use via MCP, agent memory (extraction, consolidation, retrieval), RAG & embeddings, harness integration, runtime guardrails
 - Agent tracing, token/cost monitoring, session-log analysis, debugging, root-cause analysis
+- Benchmark & ablation design, LLM-as-a-Judge, human-in-the-loop validation, uncertainty quantification, confidence estimation
 - Requirements engineering, system & component architecture design, modeling, system identification, training, validation, simulation
 - Software-in-the-loop testing, real-time control development, signal processing, runtime monitoring
 - Embedded software, communication systems, sensor & actuator integration, calibration, prototyping, optimization
@@ -14,7 +14,7 @@ R&D Engineer with multidisciplinary expertise in Systems Design and AI-enabled S
 - **Robotics:** industrial, serial & parallel (cable, Stewart), humanoid, biped, UGV, UAV (quadcopter), exoskeleton (upper & lower limb)
 - **Biological Systems:** musculoskeletal modeling, EMG signal analysis
 - **Physical Systems:** electrical circuits, hydraulics, pneumatics, mechanical mechanisms
-- 
+  
 **Skills:**
 - **Software Deployment & Integration:** Docker, containerized server deployment, API integration
 - **Programming:** Python (NumPy, SciPy, Matplotlib, Pandas, scikit-learn), C++
